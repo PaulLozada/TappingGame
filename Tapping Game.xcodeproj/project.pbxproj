@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E0A2BF1C725C2C002870DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A2BE1C725C2C002870DC /* AppDelegate.swift */; };
+		33E0A2C11C725C2C002870DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A2C01C725C2C002870DC /* ViewController.swift */; };
+		33E0A2C41C725C2C002870DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A2C21C725C2C002870DC /* Main.storyboard */; };
+		33E0A2C61C725C2C002870DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A2C51C725C2C002870DC /* Assets.xcassets */; };
+		33E0A2C91C725C2C002870DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E0A2C71C725C2C002870DC /* LaunchScreen.storyboard */; };
+		33E0A2D41C725C2C002870DC /* Tapping_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A2D31C725C2C002870DC /* Tapping_GameTests.swift */; };
+		33E0A2DF1C725C2C002870DC /* Tapping_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0A2DE1C725C2C002870DC /* Tapping_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E0A2D01C725C2C002870DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E0A2B31C725C2C002870DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E0A2BA1C725C2C002870DC;
+			remoteInfo = "Tapping Game";
+		};
+		33E0A2DB1C725C2C002870DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E0A2B31C725C2C002870DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E0A2BA1C725C2C002870DC;
+			remoteInfo = "Tapping Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33E0A2BB1C725C2C002870DC /* Tapping Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tapping Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E0A2BE1C725C2C002870DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33E0A2C01C725C2C002870DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33E0A2C31C725C2C002870DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E0A2C51C725C2C002870DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E0A2C81C725C2C002870DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E0A2CA1C725C2C002870DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E0A2CF1C725C2C002870DC /* Tapping GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tapping GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E0A2D31C725C2C002870DC /* Tapping_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapping_GameTests.swift; sourceTree = "<group>"; };
+		33E0A2D51C725C2C002870DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E0A2DA1C725C2C002870DC /* Tapping GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tapping GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E0A2DE1C725C2C002870DC /* Tapping_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tapping_GameUITests.swift; sourceTree = "<group>"; };
+		33E0A2E01C725C2C002870DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E0A2B81C725C2C002870DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E0A2CC1C725C2C002870DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E0A2D71C725C2C002870DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E0A2B21C725C2C002870DC = {
+			isa = PBXGroup;
+			children = (
+				33E0A2BD1C725C2C002870DC /* Tapping Game */,
+				33E0A2D21C725C2C002870DC /* Tapping GameTests */,
+				33E0A2DD1C725C2C002870DC /* Tapping GameUITests */,
+				33E0A2BC1C725C2C002870DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33E0A2BC1C725C2C002870DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E0A2BB1C725C2C002870DC /* Tapping Game.app */,
+				33E0A2CF1C725C2C002870DC /* Tapping GameTests.xctest */,
+				33E0A2DA1C725C2C002870DC /* Tapping GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E0A2BD1C725C2C002870DC /* Tapping Game */ = {
+			isa = PBXGroup;
+			children = (
+				33E0A2BE1C725C2C002870DC /* AppDelegate.swift */,
+				33E0A2C01C725C2C002870DC /* ViewController.swift */,
+				33E0A2C21C725C2C002870DC /* Main.storyboard */,
+				33E0A2C51C725C2C002870DC /* Assets.xcassets */,
+				33E0A2C71C725C2C002870DC /* LaunchScreen.storyboard */,
+				33E0A2CA1C725C2C002870DC /* Info.plist */,
+			);
+			path = "Tapping Game";
+			sourceTree = "<group>";
+		};
+		33E0A2D21C725C2C002870DC /* Tapping GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E0A2D31C725C2C002870DC /* Tapping_GameTests.swift */,
+				33E0A2D51C725C2C002870DC /* Info.plist */,
+			);
+			path = "Tapping GameTests";
+			sourceTree = "<group>";
+		};
+		33E0A2DD1C725C2C002870DC /* Tapping GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E0A2DE1C725C2C002870DC /* Tapping_GameUITests.swift */,
+				33E0A2E01C725C2C002870DC /* Info.plist */,
+			);
+			path = "Tapping GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E0A2BA1C725C2C002870DC /* Tapping Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E0A2E31C725C2C002870DC /* Build configuration list for PBXNativeTarget "Tapping Game" */;
+			buildPhases = (
+				33E0A2B71C725C2C002870DC /* Sources */,
+				33E0A2B81C725C2C002870DC /* Frameworks */,
+				33E0A2B91C725C2C002870DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tapping Game";
+			productName = "Tapping Game";
+			productReference = 33E0A2BB1C725C2C002870DC /* Tapping Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E0A2CE1C725C2C002870DC /* Tapping GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E0A2E61C725C2C002870DC /* Build configuration list for PBXNativeTarget "Tapping GameTests" */;
+			buildPhases = (
+				33E0A2CB1C725C2C002870DC /* Sources */,
+				33E0A2CC1C725C2C002870DC /* Frameworks */,
+				33E0A2CD1C725C2C002870DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E0A2D11C725C2C002870DC /* PBXTargetDependency */,
+			);
+			name = "Tapping GameTests";
+			productName = "Tapping GameTests";
+			productReference = 33E0A2CF1C725C2C002870DC /* Tapping GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E0A2D91C725C2C002870DC /* Tapping GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E0A2E91C725C2C002870DC /* Build configuration list for PBXNativeTarget "Tapping GameUITests" */;
+			buildPhases = (
+				33E0A2D61C725C2C002870DC /* Sources */,
+				33E0A2D71C725C2C002870DC /* Frameworks */,
+				33E0A2D81C725C2C002870DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E0A2DC1C725C2C002870DC /* PBXTargetDependency */,
+			);
+			name = "Tapping GameUITests";
+			productName = "Tapping GameUITests";
+			productReference = 33E0A2DA1C725C2C002870DC /* Tapping GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E0A2B31C725C2C002870DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paul Lozada";
+				TargetAttributes = {
+					33E0A2BA1C725C2C002870DC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					33E0A2CE1C725C2C002870DC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 33E0A2BA1C725C2C002870DC;
+					};
+					33E0A2D91C725C2C002870DC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 33E0A2BA1C725C2C002870DC;
+					};
+				};
+			};
+			buildConfigurationList = 33E0A2B61C725C2C002870DC /* Build configuration list for PBXProject "Tapping Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E0A2B21C725C2C002870DC;
+			productRefGroup = 33E0A2BC1C725C2C002870DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E0A2BA1C725C2C002870DC /* Tapping Game */,
+				33E0A2CE1C725C2C002870DC /* Tapping GameTests */,
+				33E0A2D91C725C2C002870DC /* Tapping GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E0A2B91C725C2C002870DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E0A2C91C725C2C002870DC /* LaunchScreen.storyboard in Resources */,
+				33E0A2C61C725C2C002870DC /* Assets.xcassets in Resources */,
+				33E0A2C41C725C2C002870DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E0A2CD1C725C2C002870DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E0A2D81C725C2C002870DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E0A2B71C725C2C002870DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E0A2C11C725C2C002870DC /* ViewController.swift in Sources */,
+				33E0A2BF1C725C2C002870DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E0A2CB1C725C2C002870DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E0A2D41C725C2C002870DC /* Tapping_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E0A2D61C725C2C002870DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E0A2DF1C725C2C002870DC /* Tapping_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E0A2D11C725C2C002870DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E0A2BA1C725C2C002870DC /* Tapping Game */;
+			targetProxy = 33E0A2D01C725C2C002870DC /* PBXContainerItemProxy */;
+		};
+		33E0A2DC1C725C2C002870DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E0A2BA1C725C2C002870DC /* Tapping Game */;
+			targetProxy = 33E0A2DB1C725C2C002870DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E0A2C21C725C2C002870DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E0A2C31C725C2C002870DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E0A2C71C725C2C002870DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E0A2C81C725C2C002870DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E0A2E11C725C2C002870DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33E0A2E21C725C2C002870DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E0A2E41C725C2C002870DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tapping Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul.Lozada.Tapping-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33E0A2E51C725C2C002870DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tapping Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul.Lozada.Tapping-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33E0A2E71C725C2C002870DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tapping GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul.Lozada.Tapping-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tapping Game.app/Tapping Game";
+			};
+			name = Debug;
+		};
+		33E0A2E81C725C2C002870DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tapping GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul.Lozada.Tapping-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tapping Game.app/Tapping Game";
+			};
+			name = Release;
+		};
+		33E0A2EA1C725C2C002870DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tapping GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul.Lozada.Tapping-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tapping Game";
+			};
+			name = Debug;
+		};
+		33E0A2EB1C725C2C002870DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tapping GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul.Lozada.Tapping-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tapping Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E0A2B61C725C2C002870DC /* Build configuration list for PBXProject "Tapping Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E0A2E11C725C2C002870DC /* Debug */,
+				33E0A2E21C725C2C002870DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E0A2E31C725C2C002870DC /* Build configuration list for PBXNativeTarget "Tapping Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E0A2E41C725C2C002870DC /* Debug */,
+				33E0A2E51C725C2C002870DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33E0A2E61C725C2C002870DC /* Build configuration list for PBXNativeTarget "Tapping GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E0A2E71C725C2C002870DC /* Debug */,
+				33E0A2E81C725C2C002870DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33E0A2E91C725C2C002870DC /* Build configuration list for PBXNativeTarget "Tapping GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E0A2EA1C725C2C002870DC /* Debug */,
+				33E0A2EB1C725C2C002870DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33E0A2B31C725C2C002870DC /* Project object */;
+}
