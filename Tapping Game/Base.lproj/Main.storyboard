@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="6Eh-fH-HH3">
             <objects>
-                <viewController id="RWW-dX-c0q" sceneMemberID="viewController">
+                <viewController id="RWW-dX-c0q" customClass="ViewController" customModule="Tapping_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AXG-5c-UVU"/>
                         <viewControllerLayoutGuide type="bottom" id="dU8-3a-VXU"/>
@@ -19,13 +19,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="MVl-SI-5IN">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czp-oX-mG1">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many Taps?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czp-oX-mG1">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="209" id="xbh-Yj-fha"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="xbh-Yj-fha"/>
@@ -36,56 +36,124 @@
                                         <include reference="xbh-Yj-fha"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="tapNumberTextField:" destination="RWW-dX-c0q" eventType="editingChanged" id="Pqm-P8-jMU"/>
+                                </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opk-9c-H0o">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="B7e-kx-lkA">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="szd-3l-uaH"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="szd-3l-uaH"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="szd-3l-uaH"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2X-8Z-gT8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="StartButton"/>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="RWW-dX-c0q" eventType="touchUpInside" id="Ac0-wF-coO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GuS-dG-X75">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Coin"/>
+                                <connections>
+                                    <action selector="coinButtonPressed:" destination="RWW-dX-c0q" eventType="touchUpInside" id="qpC-ec-v7g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMU-Zh-ZgO">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="179" y="54" width="42" height="21"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="221" y="185" width="0.0" height="0.0"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="H2X-8Z-gT8" firstAttribute="top" secondItem="MVl-SI-5IN" secondAttribute="bottom" constant="-299" id="3kt-l5-QHU"/>
                             <constraint firstAttribute="trailing" secondItem="MVl-SI-5IN" secondAttribute="trailing" id="5Gh-8q-9PU"/>
+                            <constraint firstItem="QMU-Zh-ZgO" firstAttribute="centerX" secondItem="QBF-l3-Ipj" secondAttribute="centerX" id="6a4-yo-sTK"/>
                             <constraint firstItem="MVl-SI-5IN" firstAttribute="leading" secondItem="QBF-l3-Ipj" secondAttribute="leading" id="7k6-ib-KUk"/>
+                            <constraint firstItem="QMU-Zh-ZgO" firstAttribute="top" secondItem="GuS-dG-X75" secondAttribute="bottom" constant="49" id="7v3-IM-sVh"/>
                             <constraint firstItem="czp-oX-mG1" firstAttribute="top" secondItem="AXG-5c-UVU" secondAttribute="bottom" constant="287" id="Ex6-9U-dgy">
                                 <variation key="widthClass=compact" constant="133"/>
                             </constraint>
+                            <constraint firstItem="H2X-8Z-gT8" firstAttribute="centerX" secondItem="czp-oX-mG1" secondAttribute="centerX" id="Ubb-Nj-uuh"/>
+                            <constraint firstItem="GuS-dG-X75" firstAttribute="top" secondItem="AXG-5c-UVU" secondAttribute="bottom" constant="40" id="WvO-Jw-fKQ"/>
+                            <constraint firstItem="B7e-kx-lkA" firstAttribute="centerX" secondItem="czp-oX-mG1" secondAttribute="centerX" id="bKb-SI-j0h"/>
                             <constraint firstItem="MVl-SI-5IN" firstAttribute="top" secondItem="QBF-l3-Ipj" secondAttribute="top" id="c2y-KP-NAp"/>
                             <constraint firstItem="czp-oX-mG1" firstAttribute="centerX" secondItem="QBF-l3-Ipj" secondAttribute="centerX" id="cq4-Mn-uUE"/>
                             <constraint firstItem="MVl-SI-5IN" firstAttribute="bottom" secondItem="dU8-3a-VXU" secondAttribute="top" id="i2k-Ly-zg8"/>
+                            <constraint firstItem="B7e-kx-lkA" firstAttribute="top" secondItem="AXG-5c-UVU" secondAttribute="bottom" constant="40" id="kUp-kw-0mC"/>
+                            <constraint firstItem="GuS-dG-X75" firstAttribute="centerX" secondItem="QBF-l3-Ipj" secondAttribute="centerX" id="lm8-Sv-zrd"/>
+                            <constraint firstItem="czp-oX-mG1" firstAttribute="top" secondItem="B7e-kx-lkA" secondAttribute="bottom" constant="52" id="trE-6a-IrZ">
+                                <variation key="widthClass=compact" constant="52"/>
+                            </constraint>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="MVl-SI-5IN"/>
                                 <exclude reference="czp-oX-mG1"/>
-                                <exclude reference="opk-9c-H0o"/>
+                                <exclude reference="B7e-kx-lkA"/>
+                                <exclude reference="H2X-8Z-gT8"/>
+                                <exclude reference="GuS-dG-X75"/>
+                                <exclude reference="QMU-Zh-ZgO"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="5Gh-8q-9PU"/>
                                 <exclude reference="7k6-ib-KUk"/>
                                 <exclude reference="c2y-KP-NAp"/>
                                 <exclude reference="i2k-Ly-zg8"/>
+                                <exclude reference="bKb-SI-j0h"/>
+                                <exclude reference="kUp-kw-0mC"/>
                                 <exclude reference="Ex6-9U-dgy"/>
                                 <exclude reference="cq4-Mn-uUE"/>
+                                <exclude reference="trE-6a-IrZ"/>
+                                <exclude reference="WvO-Jw-fKQ"/>
+                                <exclude reference="lm8-Sv-zrd"/>
+                                <exclude reference="6a4-yo-sTK"/>
+                                <exclude reference="7v3-IM-sVh"/>
+                                <exclude reference="3kt-l5-QHU"/>
+                                <exclude reference="Ubb-Nj-uuh"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="MVl-SI-5IN"/>
                                 <include reference="czp-oX-mG1"/>
-                                <include reference="opk-9c-H0o"/>
+                                <include reference="B7e-kx-lkA"/>
+                                <include reference="H2X-8Z-gT8"/>
+                                <include reference="GuS-dG-X75"/>
+                                <include reference="QMU-Zh-ZgO"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="5Gh-8q-9PU"/>
                                 <include reference="7k6-ib-KUk"/>
                                 <include reference="c2y-KP-NAp"/>
                                 <include reference="i2k-Ly-zg8"/>
+                                <include reference="bKb-SI-j0h"/>
+                                <include reference="kUp-kw-0mC"/>
                                 <include reference="Ex6-9U-dgy"/>
                                 <include reference="cq4-Mn-uUE"/>
+                                <include reference="trE-6a-IrZ"/>
+                                <include reference="WvO-Jw-fKQ"/>
+                                <include reference="lm8-Sv-zrd"/>
+                                <include reference="6a4-yo-sTK"/>
+                                <include reference="7v3-IM-sVh"/>
+                                <include reference="3kt-l5-QHU"/>
+                                <include reference="Ubb-Nj-uuh"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -94,6 +162,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="coinOutlet" destination="GuS-dG-X75" id="5yj-Ut-qHM"/>
+                        <outlet property="startButtonOutlet" destination="H2X-8Z-gT8" id="XWG-JU-MXZ"/>
+                        <outlet property="tapLabel" destination="QMU-Zh-ZgO" id="LWc-dT-wdN"/>
+                        <outlet property="tapperTitleImage" destination="B7e-kx-lkA" id="eKw-Hf-zhg"/>
+                        <outlet property="tapsTextField" destination="czp-oX-mG1" id="8fs-jA-pEe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ovp-V9-Mko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,5 +177,8 @@
     </scenes>
     <resources>
         <image name="BackgroundImage" width="511" height="462"/>
+        <image name="Coin" width="49" height="76"/>
+        <image name="StartButton" width="89" height="36"/>
+        <image name="Tapper" width="87" height="24"/>
     </resources>
 </document>
